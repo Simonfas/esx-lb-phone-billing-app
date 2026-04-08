@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f141a;
+    color: white;
+}
+
+.app {
+    padding-top: 80px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+.header {
+    margin-bottom: 16px;
+}
+
+.header h1 {
+    margin: 0 0 6px 0;
+    font-size: 28px;
+}
+
+.header p {
+    margin: 0;
+    color: #aab4be;
+    font-size: 14px;
+}
+
+.card {
+    background: #1b222b;
+    border-radius: 14px;
+    padding: 14px;
+    margin-bottom: 12px;
+}
+
+button {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #2f89ff;
+    color: white;
+}
+
+.bill-card h3 {
+    margin: 0 0 4px 0;
+    font-size: 18px;
+}
+
+.bill-card p {
+    margin: 0;
+    color: #b4bec8;
+    font-size: 13px;
+}
+
+.bill-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.amount {
+    font-size: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.pay-btn {
+    background: #35c759;
+}
+
+.status.success {
+    border-left: 4px solid #35c759;
+}
+
+.status.error {
+    border-left: 4px solid #ff453a;
+}
+
+.hidden {
+    display: none;
+}
